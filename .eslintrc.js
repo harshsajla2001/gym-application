@@ -30,7 +30,7 @@ module.exports = {
     ],
 
     'no-multiple-empty-lines': [
-      'error',
+      'off',
       {
         max: 1,
         maxEOF: 1,
@@ -60,7 +60,7 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 0,
     'react/no-array-index-key': 0,
     'jsx-a11y/anchor-is-valid': [
-      'error',
+      'off',
       {
         components: [
           'Link',
